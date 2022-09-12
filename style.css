@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+#btn {
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -20px;
+
+}
+
+.container #text-input  {
+    padding: 8px 10px;
+    width: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.animationClass {
+    transition-duration: 0.5s ;
+}
